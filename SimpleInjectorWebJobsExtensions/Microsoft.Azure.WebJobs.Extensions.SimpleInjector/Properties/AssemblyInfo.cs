@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Microsoft.Azure.WebJobs.Extensions.SimpleInjector")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Extensions to help clean up dependency injection in Azure WebJobs using SimpleInjector as a container.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Microsoft.Azure.WebJobs.Extensions.SimpleInjector")]

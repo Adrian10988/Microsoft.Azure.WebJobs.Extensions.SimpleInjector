@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Adrian Campos</authors>
+    <owners>Adrian Campos</owners>
+    <licenseUrl>https://github.com/Adrian10988/Microsoft.Azure.WebJobs.Extensions.SimpleInjector</licenseUrl>
+    <projectUrl>https://github.com/Adrian10988/Microsoft.Azure.WebJobs.Extensions.SimpleInjector</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extensions to help clean up dependency injection in Azure WebJobs using SimpleInjector as a container.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Dependency Injection DI Azure WebJobs SimpleInjector</tags>
+  </metadata>
+</package>
