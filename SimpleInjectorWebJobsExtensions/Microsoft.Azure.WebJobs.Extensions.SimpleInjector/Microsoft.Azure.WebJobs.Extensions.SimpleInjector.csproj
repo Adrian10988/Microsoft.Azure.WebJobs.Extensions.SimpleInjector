@@ -144,7 +144,6 @@
     <Compile Include="SimpleInjectorConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Microsoft.Azure.WebJobs.Extensions.SimpleInjector.1.0.0.nupkg" />
     <None Include="Microsoft.Azure.WebJobs.Extensions.SimpleInjector.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>

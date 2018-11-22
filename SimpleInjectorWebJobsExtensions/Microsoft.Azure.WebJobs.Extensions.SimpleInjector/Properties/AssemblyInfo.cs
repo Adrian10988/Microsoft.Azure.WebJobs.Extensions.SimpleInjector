@@ -1,12 +1,13 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Microsoft.Azure.WebJobs.Extensions.SimpleInjector")]
-[assembly: AssemblyDescription("Extensions to help clean up dependency injection in Azure WebJobs using SimpleInjector as a container.")]
+[assembly:
+    AssemblyDescription(
+        "Extensions to help clean up dependency injection in Azure WebJobs using SimpleInjector as a container.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Microsoft.Azure.WebJobs.Extensions.SimpleInjector")]
