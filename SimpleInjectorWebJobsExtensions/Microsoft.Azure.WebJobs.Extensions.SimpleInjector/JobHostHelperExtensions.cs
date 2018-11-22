@@ -1,18 +1,21 @@
-﻿using SimpleInjector;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using SimpleInjector;
 
 namespace Microsoft.Azure.WebJobs.Extensions.SimpleInjector
 {
     public static class JobHostHelperExtensions
     {
-        public static void UseSimpleInjector(this JobHostConfiguration config, Action<Container, object> bootstrapFunction, object additionalParam,
+        public static void UseSimpleInjector(this JobHostConfiguration config,
+            Action<Container, object> bootstrapFunction, object additionalParam,
             Lifestyle lifeStyle)
         {
-            config.RegisterExtensionConfigProvider(new SimpleInjectorConfiguration(bootstrapFunction, additionalParam, lifeStyle, config));
+            config.RegisterExtensionConfigProvider(new SimpleInjectorConfiguration(bootstrapFunction, additionalParam,
+                lifeStyle, config));
+        }
+
+        public static void UseSimpleInjector(this JobHostConfiguration config, Container container, Lifestyle lifeStyle)
+        {
+            config.RegisterExtensionConfigProvider(new SimpleInjectorConfiguration(container, lifeStyle, config));
         }
     }
 }
